@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/Mark-kaz/my_proj>
    cd <repository_folder>
 
 2.	Установите и активируйте виртуальное окружение:
