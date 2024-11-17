@@ -14,9 +14,9 @@ flavors:
     serialization_format: cloudpickle
     sklearn_version: 1.5.2
 mlflow_version: 2.17.2
-model_size_bytes: 1903018
-model_uuid: f319fe263c964956bb7cc4f864df80bc
-run_id: 2be97d2170f44357a391f90e815ef25c
+model_size_bytes: 1888170
+model_uuid: c43d3b297b8242bfba0a93116c5479e1
+run_id: c03decc120d9440bb98bbd8daf825fee
 saved_input_example_info:
   artifact_path: input_example.json
   pandas_orient: split
@@ -30,4 +30,4 @@ signature:
     "required": true}, {"type": "string", "name": "Transmission", "required": true}]'
   outputs: null
   params: null
-utc_time_created: '2024-11-12 23:30:29.032710'
+utc_time_created: '2024-11-14 23:44:37.713872'

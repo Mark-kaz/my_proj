@@ -8,3 +8,7 @@
 .venv*
 
 .DS*
+
+# Игнорирование файлов MLFLOW
+mlflow/mlartifacts/
+mlflow/mlruns.db
