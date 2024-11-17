@@ -26,15 +26,15 @@ pip install -r requirements.txt
 Лучшая модель
 
 По итогам исследования лучшая модель — это Random Forest Regressor. Она была обучена с использованием оптимальных гиперпараметров, подобранных с помощью библиотеки Optuna:
-	•	n_estimators: 150
-	•	max_depth: 20
-	•	max_features: 0.8
+	•	n_estimators: 285
+	•	max_depth: 9
+	•	max_features: 0.9
 
 Результаты метрик на тестовой выборке:
 
-	•	Mean Absolute Error (MAE): 0.485
-	•	Mean Absolute Percentage Error (MAPE): 0.223
-	•	Mean Squared Error (MSE): 0.610
+	•	Mean Absolute Error (MAE): 0.493
+	•	Mean Absolute Percentage Error (MAPE): 0.159
+	•	Mean Squared Error (MSE): 0.693
 
 # Выбранные признаки
 
