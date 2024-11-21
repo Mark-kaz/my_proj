@@ -10,5 +10,8 @@
 .DS*
 
 # Игнорирование файлов MLFLOW
-mlflow/mlartifacts/
-mlflow/mlruns.db
+mlartifacts/
+mlruns/
+mlruns_backup.db
+mlruns.db
+__pycache__/
