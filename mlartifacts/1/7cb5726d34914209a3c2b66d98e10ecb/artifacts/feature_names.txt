@@ -1,0 +1,6 @@
+poly__Present_Price
+poly__Driven_kms
+poly__Present_Price^2
+poly__Present_Price Driven_kms
+poly__Driven_kms^2
+k_bins__Year
