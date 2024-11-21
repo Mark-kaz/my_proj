@@ -10,7 +10,8 @@
 .DS*
 
 # Игнорирование файлов MLFLOW
-mlartifacts/
+mlarti*
+mlartifacts/1
 mlruns/
 mlruns_backup.db
 mlruns.db
