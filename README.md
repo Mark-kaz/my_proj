@@ -164,19 +164,18 @@ docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:1
    ```
 
 ## Установите и активируйте виртуальное окружение:
- 	```
+ 	```bash
 	python -m venv .venv_my_proj
 	source .venv_my_proj/bin/activate  # для MacOS/Linux
 	.\.venv_my_proj\Scripts\activate   # для Windows
 	```
 
 ## Запуск проекта
-
 Чтобы запустить проект, выполните следующие команды:
 
  **Запуск Docker Compose**:
    В корне проекта выполните команду:
-   ``` 
+   ```bash
    docker-compose up --build
    ```
 Это создаст и запустит все сервисы, включая:
