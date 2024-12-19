@@ -161,7 +161,7 @@ docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:1
     ```bash
    git clone <https://github.com/Mark-kaz/my_proj>
    cd <repository_folder>
-   ```
+```
 
 ## Установите и активируйте виртуальное окружение:
  	```bash
