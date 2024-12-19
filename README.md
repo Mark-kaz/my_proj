@@ -158,7 +158,6 @@ docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:1
 └── model.pkl
 
 ##  Клонируйте репозиторий:
-<<<<<<< HEAD
 ```bash	
    git clone <https://github.com/Mark-kaz/my_proj>
    cd <repository_folder>
@@ -170,7 +169,7 @@ docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:1
 	python -m venv .venv_my_proj
 	source .venv_my_proj/bin/activate  # для MacOS/Linux
 	.\.venv_my_proj\Scripts\activate   # для Windows
-	```	
+```	
 
 ## Запуск проекта
 Чтобы запустить проект, выполните следующие команды:
