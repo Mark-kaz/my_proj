@@ -164,7 +164,7 @@ docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:1
    ```
 
 ## Установите и активируйте виртуальное окружение:
- ```bash
+ 	```
 	python -m venv .venv_my_proj
 	source .venv_my_proj/bin/activate  # для MacOS/Linux
 	.\.venv_my_proj\Scripts\activate   # для Windows
@@ -176,7 +176,7 @@ docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:1
 
  **Запуск Docker Compose**:
    В корне проекта выполните команду:
-   ```bash
+   ``` 
    docker-compose up --build
    ```
 Это создаст и запустит все сервисы, включая:
@@ -189,12 +189,12 @@ docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:1
 	
 ### 1.	Графики из Prometheus:
 
-	![частота запросов (rate) к API.]('/Users/markantimonov/Desktop/my_proj/1.png')
-	![частота запросов, которые не завершились с успешным статусом 2xx (ошибки 4xx и 5xx).]('/Users/markantimonov/Desktop/my_proj/2.png')
-	![гистограмма предсказанных цен.]('/Users/markantimonov/Desktop/my_proj/3.png')
+	![частота запросов (rate) к API.]('./images/1.png')
+	![частота запросов, которые не завершились с успешным статусом 2xx (ошибки 4xx и 5xx).]('./images/2.png')
+	![гистограмма предсказанных цен.]('./images/3.png')
 
 ### 2. График из grafana
-	![Дашборд.]('/Users/markantimonov/Desktop/my_proj/4.png')
+	![Дашборд.]('./images/4.png')
 		1.	График количества запросов с кодами ошибки 4xx и 5xx
 		Этот график позволяет отслеживать количество ошибок, что важно для анализа стабильности и корректности работы API.
 		2.	График использования памяти процессом
